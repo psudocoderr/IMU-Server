@@ -9,7 +9,7 @@ and serves a real-time Chart.js dashboard.
 
 | File | Description |
 |------|-------------|
-| `imu_server_v5.py` | TCP listener on :6071; parses 17-byte frames; writes SQLite |
+| `imu_server.py` | TCP listener on :6071; parses 17-byte frames; writes SQLite |
 | `server.py` | Flask web server on :6050; SSE stream; CSV export |
 | `auto_csv.py` | Scheduled CSV dump utility |
 
